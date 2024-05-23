@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Users">
+      <UniqueIdentifier>{ead13d9b-a19d-4bb7-8d35-eafa7b1a2531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Models">
+      <UniqueIdentifier>{b6e82925-48ba-448f-96e6-1451018c1109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DataManagement">
+      <UniqueIdentifier>{a6490232-bc26-4169-bedb-e4e295b30c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Users">
+      <UniqueIdentifier>{638abf70-57bb-4f96-a9b1-da32bea5dc14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{a3fa2f6a-9d82-433c-9d71-fdc87fa93fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataManagement">
+      <UniqueIdentifier>{85813b20-0a8e-4c02-b783-76d716f59fdb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Administrator.cpp">
+      <Filter>Resource Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="AdministrareUtilizatori.cpp">
+      <Filter>Resource Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="Persoana.cpp">
+      <Filter>Resource Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Resource Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="Camion.cpp">
+      <Filter>Resource Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Masina.cpp">
+      <Filter>Resource Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Motocicleta.cpp">
+      <Filter>Resource Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicul.cpp">
+      <Filter>Resource Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Resource Files\DataManagement</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Administrator.h">
+      <Filter>Header Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="AdministrareUtilizatori.h">
+      <Filter>Header Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="Persoana.h">
+      <Filter>Header Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files\DataManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Camion.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Masina.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Motocicleta.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicul.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Client.txt" />
+    <Text Include="Admin.txt" />
+  </ItemGroup>
+</Project>

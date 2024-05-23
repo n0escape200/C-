@@ -1,0 +1,79 @@
+﻿  AdministrareUtilizatori.cpp
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Vehicul.h(41,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'AdministrareUtilizatori.cpp')
+  
+  Server.cpp
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Vehicul.h(41,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Server.cpp')
+  
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(154,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(154,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(154,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(187,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(187,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(187,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(218,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(218,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(218,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(257,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(257,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(257,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(294,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(294,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(294,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(329,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(329,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(329,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(365,13): warning C4129: 'M': unrecognized character escape sequence
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(366,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(366,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(366,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(397,13): warning C4129: 'M': unrecognized character escape sequence
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(398,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(398,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(398,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(431,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(431,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(431,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(453,32): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(454,34): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(455,50): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(479,32): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(480,34): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(481,50): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(504,37): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(505,39): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Server.cpp(506,55): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+  main.cpp
+C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\OOP_Project\Vehicul.h(41,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+     Creating library C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\x64\Release\OOP_Project.lib and object C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\x64\Release\OOP_Project.exp
+  Generating code
+  7 of 321 functions ( 2.2%) were compiled, the rest were copied from previous compilation.
+    3 functions were new in current compilation
+    75 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+mysqlcppconn-static.lib(mysql_driver.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_driver.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_connection.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_connection.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_native_driver_wrapper.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_native_driver_wrapper.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_uri.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_uri.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_metadata.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_metadata.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_warning.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_warning.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_prepared_statement.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_prepared_statement.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_statement.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_statement.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_debug.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_debug.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_client_api.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_client_api.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_native_connection_wrapper.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_native_connection_wrapper.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_util.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_util.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_art_resultset.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_art_resultset.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_resultbind.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_resultbind.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_ps_resultset.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_ps_resultset.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_ps_resultset_metadata.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_ps_resultset_metadata.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_parameter_metadata.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_parameter_metadata.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_resultset.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_resultset.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_native_resultset_wrapper.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_native_resultset_wrapper.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_native_statement_wrapper.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_native_statement_wrapper.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_art_rset_metadata.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_art_rset_metadata.obj)' or at ''; linking object as if no debug info
+mysqlcppconn-static.lib(mysql_resultset_metadata.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_resultset_metadata.obj)' or at ''; linking object as if no debug info
+  OOP_Project.vcxproj -> C:\Users\n0_es\Desktop\Projects\C++\OOP_Project\x64\Release\OOP_Project.exe
