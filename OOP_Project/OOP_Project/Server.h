@@ -33,14 +33,21 @@ public:
 	void ShowVehicleTypeCar(Client client);
 	void ShowVehicleTypeTruck(Client client);
 	void ShowVehicleTypeMotorcycle(Client client);
-	void ShowAllVehicles();
+	void ShowAllVehicles(Client client);
+	void ShowAllCars(Client client);
+	void ShowAllTrucks(Client client);
+	void ShowAllMotorcycles(Client client);
 
-	void UpdateCarById(int i, Masina masina);
-	void UpdateTruckById(int i, Camion camion);
-	void UpdateMotorcycleById(int i, Motocicleta motocicleta);
+	void UpdateCarById(int i, Masina masina, Client client);
+	void UpdateTruckById(int i, Camion camion, Client client);
+	void UpdateMotorcycleById(int i, Motocicleta motocicleta, Client client);
 
-	void DeleteCarById(int i);
-	void DeleteTruckById(int i);
-	void DeleteMotorcycleById(int i);
+	void DeleteCarById(int i, Client client);
+	void DeleteTruckById(int i, Client client);
+	void DeleteMotorcycleById(int i, Client client);
+
+	int PurchaseCarById(int i, Client client);
+	int PurchaseTruckById(int i, Client client);
+	int PurchaseMotorcycleById(int i, Client client);
 };
 

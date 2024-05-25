@@ -25,6 +25,7 @@ void CustomernMenu() {
 	cout << "3)Show all listings\n";
 	cout << "4)Update a vehicle\n";
 	cout << "5)Delete a vehicle\n";
+	cout << "6)Purches a vehicle\n";
 }
 
 int main() {
@@ -167,7 +168,7 @@ int main() {
 			}
 				  break;
 			case 3: {
-				server.ShowAllVehicles();
+				server.ShowAllVehicles(client);
 				cout << "Press enter...\n";
 				cin.get();
 				cin.get();
@@ -248,6 +249,47 @@ int main() {
 					cout << "Id-ul motocicletei care va fi stearsa:";
 					cin >> j;
 					server.DeleteMotorcycleById(j);
+				}
+					  break;
+				default:
+					break;
+				}
+				cout << "Press enter...\n";
+				cin.get();
+				cin.get();
+				system("CLS");
+			}
+				  break;
+			case 6: {
+				int i;
+				cout << "1)Masina\n2)Camion\n3)Motocicleta\n";
+				cout << "Type:";
+				cin >> i;
+				switch (i)
+				{
+				case 1: {
+					server.ShowAllCars(client);
+					int i;
+					cout << "Id-ul masinii pe care doriti sa o cumparati:"; cin >> i;
+					cout << "\n";
+					int newBuget = server.PurchaseCarById(i, client);
+					client.SetBuget(newBuget);
+				}
+					  break;
+				case 2: {
+					server.ShowAllTrucks(client);
+					cout << "Id-ul camionului pe care doriti sa o cumparati:"; cin >> i;
+					cout << "\n";
+					int newBuget = server.PurchaseTruckById(i, client);
+					client.SetBuget(newBuget);
+				}
+					  break;
+				case 3: {
+					server.ShowAllMotorcycles(client);
+					cout << "Id-ul motocicletei pe care doriti sa o cumparati:"; cin >> i;
+					cout << "\n";
+					int newBuget = server.PurchaseMotorcycleById(i, client);
+					client.SetBuget(newBuget);
 				}
 					  break;
 				default:
