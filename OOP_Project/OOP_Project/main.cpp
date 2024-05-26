@@ -26,6 +26,13 @@ void CustomernMenu() {
 	cout << "4)Update a vehicle\n";
 	cout << "5)Delete a vehicle\n";
 	cout << "6)Purches a vehicle\n";
+	cout << "0)EXIT\n";
+}
+
+void AdminMenu() {
+	cout << "1)Show all clients\n";
+	cout << "2)Get client\n";
+	cout << "0)EXIT\n";
 }
 
 int main() {
@@ -189,7 +196,7 @@ int main() {
 					cin >> j;
 					Masina masina;
 					cin >> masina;
-					server.UpdateCarById(j, masina);
+					server.UpdateCarById(j, masina, client);
 				}
 					  break;
 				case 2: {
@@ -199,7 +206,7 @@ int main() {
 					cin >> j;
 					Camion camion;
 					cin >> camion;
-					server.UpdateTruckById(j, camion);
+					server.UpdateTruckById(j, camion, client);
 				}
 					  break;
 				case 3: {
@@ -209,7 +216,7 @@ int main() {
 					cin >> j;
 					Motocicleta motocicleta;
 					cin >> motocicleta;
-					server.UpdateMotorcycleById(j, motocicleta);
+					server.UpdateMotorcycleById(j, motocicleta, client);
 				}
 					  break;
 				default:
@@ -232,7 +239,7 @@ int main() {
 					int j;
 					cout << "Id-ul masinii care va fi sterse:";
 					cin >> j;
-					server.DeleteCarById(j);
+					server.DeleteCarById(j, client);
 				}
 					  break;
 				case 2: {
@@ -240,7 +247,7 @@ int main() {
 					int j;
 					cout << "Id-ul camionului care va fi sters:";
 					cin >> j;
-					server.DeleteTruckById(j);
+					server.DeleteTruckById(j, client);
 				}
 					  break;
 				case 3: {
@@ -248,7 +255,7 @@ int main() {
 					int j;
 					cout << "Id-ul motocicletei care va fi stearsa:";
 					cin >> j;
-					server.DeleteMotorcycleById(j);
+					server.DeleteMotorcycleById(j, client);
 				}
 					  break;
 				default:
@@ -314,8 +321,107 @@ int main() {
 
 		do
 		{
+			AdminMenu();
+			int op;
+			cout << ">>>";
+			cin >> op;
+			switch (op)
+			{
+			case 1: {
+				server.ShowAllClients();
+				cout << "Press enter...\n";
+				char c;
+				cin.get();
+				cin.get(c);
+				system("CLS");
+			}
+				  break;
+			case 2: {
+				string fname, lname;
+				cout << "Nume:"; cin >> fname;
+				cout << "Prenume:"; cin >> lname;
+				int state = server.GetInfoAboutUserByName(fname, lname);
+				if (state == 1) {
+					int id = server.GetCustomerByName(fname, lname);
+					cout << "Ce operatii doriti sa executati?\n";
+					cout << "1)Sterge un vehicul al clientului\n";
+					cout << "2)Sterge clientul\n";
+					cout << "3)Nimic\n";
+					int adminOp;
+					cout << ">>>";
+					cin >> adminOp;
+					switch (adminOp)
+					{
+					case 1: {
+						cout << "1)Masina\n2)Camion\n3)Motocicleta\n";
+						int vehOp;
+						cout << ">"; cin >> vehOp;
+						switch (vehOp)
+						{
+						case 1: {
+							int carid;
+							cout << "ID-ul masinii:"; cin >> carid;
+							server.DeleteCarByCustomerId(carid, id);
+						}
+							  break;
+						case 2: {
+							int truckid;
+							cout << "ID-ul camoinului:"; cin >> truckid;
+							server.DeleteTruckByCustomerId(truckid, id);
+						}
+							  break;
+						case 3: {
+							int motorId;
+							cout << "ID-ul camoinului:"; cin >> motorId;
+							server.DeleteMotorcycleByCustomerId(motorId, id);
+						}
+							  break;
+						default:
+							break;
+						}
+						cout << "Press enter...\n";
+						char c;
+						cin.get();
+						cin.get(c);
+						system("CLS");
+					}
+						  break;
+					case 2: {
+						server.DeleteCustomerById(id);
+						cout << "Press enter...\n";
+						char c;
+						cin.get();
+						cin.get(c);
+						system("CLS");
+					}
+						  break;
+					case 3: {
+						cout << "Press enter...\n";
+						char c;
+						cin.get();
+						cin.get(c);
+						system("CLS");
+					}
+						  break;
+					default:
+						break;
+					}
+				}
+				cout << "Press enter...\n";
+				char c;
+				cin.get();
+				cin.get(c);
+				system("CLS");
+			}
+				  break;	
+			case 3: {
 
-		} while (true);
+			}
+				  break;
+			default:
+				break;
+			}
+		} while (op != 0);
 
 		cout << "Press enter...\n";
 		char c;
@@ -323,5 +429,6 @@ int main() {
 		cin.get(c);
 		system("CLS");
 	}
+	
 	return 0;
 }

@@ -49,5 +49,15 @@ public:
 	int PurchaseCarById(int i, Client client);
 	int PurchaseTruckById(int i, Client client);
 	int PurchaseMotorcycleById(int i, Client client);
+
+	void ShowAllClients();
+	int GetInfoAboutUserByName(string fname, string lname);
+
+	int GetCustomerByName(string fname, string lname);
+
+	void DeleteCarByCustomerId(int idCar, int idCustomer);
+	void DeleteTruckByCustomerId(int idCar, int idCustomer);
+	void DeleteMotorcycleByCustomerId(int idCar, int idCustomer);
+	void DeleteCustomerById(int id);
 };
 

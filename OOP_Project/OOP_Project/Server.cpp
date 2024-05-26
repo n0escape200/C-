@@ -949,3 +949,322 @@ int Server::PurchaseMotorcycleById(int i, Client client)
 		cout << e.what() << "\n";
 	}
 }
+
+
+/// <summary>
+/// Functie care cauta in tabela toti clientii si afiseaza date despre ei
+/// </summary>
+void Server::ShowAllClients()
+{
+	try
+	{
+		con->setSchema("users");
+		pstmt = con->prepareStatement("SELECT * FROM users.customers");
+
+		auto result = pstmt->executeQuery();
+		auto data = result->next();
+		if (data) {
+			cout << "\n----------Clienti----------\n";
+			while (data)
+			{
+				cout << "Client ID:" << result->getInt("ID") << "\n";
+				cout << "Nume:" << result->getString("FirstName") << "\n";
+				cout << "Prenume:" << result->getString("LastName") << "\n";
+				cout << "Username:" << result->getString("Username") << "\n";
+				data = result->next();
+				cout << "\n";
+			}
+			cout << "---------------------------\n";
+		}
+	}
+	catch (const std::exception& e)
+	{
+		cout << e.what() << "\n";
+	}
+}
+
+/// <summary>
+/// Functia cauta un client dupa 'fname' si 'lname' si afiseaza listarile acestuia
+/// Funtia returneaza in felul urmator:
+/// 1 - daca un client a fost gasit si prezint listari in baza de date
+/// 2 - daca un client a fost gasit dar nu are nici o listare
+/// 0 - daca nu a fost gasit nici un client
+/// </summary>
+/// <param name="fname"></param>
+/// <param name="lname"></param>
+int Server::GetInfoAboutUserByName(string fname, string lname)
+{
+	try
+	{
+		con->setSchema("users");
+		pstmt = con->prepareStatement("SELECT * FROM users.customers WHERE FirstName = ? AND LastName = ?");
+		pstmt->setString(1, fname);
+		pstmt->setString(2, lname);
+
+		auto result = pstmt->executeQuery();
+		auto data = result->next();
+
+		if (data) {
+			int aux = 2;
+			cout << "Client gasit\n";
+			cout << "Client ID:" << result->getInt("ID") << "\n";
+			cout << "Nume:" << result->getString("FirstName") << "\n";
+			cout << "Prenume:" << result->getString("LastName") << "\n";
+			cout << "Username:" << result->getString("Username") << "\n";
+			int id = result->getInt("ID");
+
+			con->setSchema("vehicles");
+			pstmt = con->prepareStatement("SELECT * FROM vehicles.car WHERE OwnerId = ?");
+			pstmt->setInt(1, id);
+
+			result = pstmt->executeQuery();
+			auto cardata = result->next();
+			if (cardata) {
+				aux = 1;
+				cout << "----------Masini----------\n";
+				while (result->next()) {
+					int vehId = result->getInt("VehicleID");
+					int id = result->getInt("OwnerId");
+					string brand = result->getString("Brand");
+					string model = result->getString("Model");
+					int an = result->getInt("An");
+					int km = result->getInt("KM");
+					int pret = result->getInt("Pret");
+					int capCil = result->getInt("CapacitateCilindrica");
+					string combustibil = result->getString("Combustibil");
+					string sasiu = result->getString("Sasiu");
+					string transmisie = result->getString("Transmisie");
+					int usi = result->getInt("NrUsi");
+					cout << "\Masina ID:" << vehId << "\n";
+					cout << Masina(Vehicul(brand, model, an, km, pret, capCil, combustibil, id), sasiu, transmisie, usi) << "\n\n";
+					cardata = result->next();
+				}
+				cout << "----------------------------\n";
+			}
+			else {
+				cout << "Clientul nu are masini\n";
+			}
+
+			pstmt = con->prepareStatement("SELECT * FROM vehicles.truck WHERE OwnerId = ?");
+			pstmt->setInt(1, id);
+
+			result = pstmt->executeQuery();
+			auto truckData = result->next();
+			if (truckData) {
+				aux = 1;
+				cout << "----------Camioane----------\n";
+				while (truckData) {
+					int vehId = result->getInt("VehicleID");
+					int id = result->getInt("OwnerId");
+					string brand = result->getString("Brand");
+					string model = result->getString("Model");
+					int an = result->getInt("An");
+					int km = result->getInt("KM");
+					int pret = result->getInt("Pret");
+					int capCil = result->getInt("CapacitateCilindrica");
+					string combustibil = result->getString("Combustibil");
+					int greutate = result->getInt("GreutateMaxima");
+					int lungime = result->getInt("LungimePlatforma");
+					cout << "\nCamion ID:" << vehId << "\n";
+					cout << Camion(Vehicul(brand, model, an, km, pret, capCil, combustibil, id), greutate, lungime) << "\n\n";
+					truckData = result->next();
+				}
+				cout << "----------------------------\n";
+			}
+			else {
+				cout << "Clinetul nu are camioane\n";
+			}
+
+			pstmt = con->prepareStatement("SELECT * FROM vehicles.motorcycle WHERE OwnerId = ?");
+			pstmt->setInt(1, id);
+
+			result = pstmt->executeQuery();
+			auto motorData = result->next();
+			if (motorData) {
+				aux = 1;
+				cout << "----------Motociclete----------\n";
+				while (motorData) {
+					int vehId = result->getInt("VehicleID");
+					int id = result->getInt("OwnerId");
+					string brand = result->getString("Brand");
+					string model = result->getString("Model");
+					int an = result->getInt("An");
+					int km = result->getInt("KM");
+					int pret = result->getInt("Pret");
+					int capCil = result->getInt("CapacitateCilindrica");
+					string combustibil = result->getString("Combustibil");
+					string motor = result->getString("TipMotor");
+					string corp = result->getString("Corp");
+					cout << "\Motocicleta ID:" << vehId << "\n";
+					cout << Motocicleta(Vehicul(brand, model, an, km, pret, capCil, combustibil, id), motor, corp) << "\n\n";
+					motorData = result->next();
+				}
+				cout << "-------------------------------\n";
+			}
+			else {
+				cout << "Clientul nu are motociclete\n";
+			}
+			return aux;
+		}
+		else {
+			cout << "Client inexistent\n";
+			return 0;
+		}
+	}
+	catch (const std::exception& e)
+	{
+		cout << e.what() << "\n";
+	}
+}
+
+
+/// <summary>
+/// Cauta un client dupa 'fname' si 'lname' si returneaza id-ul acestuia
+/// </summary>
+/// <param name="fname"></param>
+/// <param name="lname"></param>
+/// <returns></returns>
+int Server::GetCustomerByName(string fname, string lname)
+{
+	try
+	{
+		con->setSchema("users");
+		pstmt = con->prepareStatement("SELECT ID FROM users.customers WHERE FirstName = ? AND LastName = ?");
+		pstmt->setString(1, fname);
+		pstmt->setString(2, lname);
+
+		auto result = pstmt->executeQuery();
+		if (result->next()) {
+			return result->getInt("ID");
+		}
+	}
+	catch (const std::exception& e)
+	{
+		cout << e.what();
+	}
+	return -1;
+}
+
+
+/// <summary>
+/// Cauta si sterge o masini dupa 'idCar' daca apartine clientului cu 'idCustomer'
+/// </summary>
+/// <param name="idCar"></param>
+/// <param name="idCustomer"></param>
+void Server::DeleteCarByCustomerId(int idCar,int idCustomer)
+{
+	try
+	{
+		con->setSchema("vehicles");
+		pstmt = con->prepareStatement("DELETE FROM vehicles.car WHERE VehicleID = ? AND OwnerId = ?");
+		pstmt->setInt(1, idCar);
+		pstmt->setInt(2, idCustomer);
+
+		auto data = pstmt->executeQuery();
+
+		if (data->next()) {
+			cout << "Masina stearsa\n";
+		}
+		else {
+			cout << "Eroare de cautare\n";
+		}
+	}
+	catch (const std::exception& e)
+	{
+		cout << e.what() << '\n';
+	}
+}
+
+
+/// <summary>
+/// Cauta si sterge un camion dupa 'idCar' daca apartine clientului cu 'idCustomer'
+/// </summary>
+/// <param name="idCar"></param>
+/// <param name="idCustomer"></param>
+void Server::DeleteTruckByCustomerId(int idCar, int idCustomer)
+{
+	try
+	{
+		con->setSchema("vehicles");
+		pstmt = con->prepareStatement("DELETE FROM vehicles.truck WHERE VehicleID = ? AND OwnerId = ?");
+		pstmt->setInt(1, idCar);
+		pstmt->setInt(2, idCustomer);
+
+		auto data = pstmt->executeQuery();
+
+		if (data->next()) {
+			cout << "Camion sters\n";
+		}
+		else {
+			cout << "Eroare de cautare\n";
+		}
+	}
+	catch (const std::exception& e)
+	{
+		cout << e.what() << '\n';
+	}
+}
+
+
+/// <summary>
+/// Cauta si sterge o motocicleta dupa 'idCar' daca apartine clientului cu 'idCustomer'
+/// </summary>
+/// <param name="idCar"></param>
+/// <param name="idCustomer"></param>
+void Server::DeleteMotorcycleByCustomerId(int idCar, int idCustomer)
+{
+	try
+	{
+		con->setSchema("vehicles");
+		pstmt = con->prepareStatement("DELETE FROM vehicles.motorcycle WHERE VehicleID = ? AND OwnerId = ?");
+		pstmt->setInt(1, idCar);
+		pstmt->setInt(2, idCustomer);
+
+		auto data = pstmt->executeQuery();
+
+		if (data->next()) {
+			cout << "Motocicleta stearsa\n";
+		}
+		else {
+			cout << "Eroare de cautare\n";
+		}
+	}
+	catch (const std::exception& e)
+	{
+		cout << e.what() << '\n';
+	}
+}
+
+
+/// <summary>
+/// Sterge un client dupa 'id', impreauna cu listarile sale din baza de date
+/// </summary>
+/// <param name="id"></param>
+void Server::DeleteCustomerById(int id)
+{
+	try
+	{
+		con->setSchema("vehicles");
+		pstmt = con->prepareStatement("DELETE FROM vehicles.car WHERE OwnerId = ?");
+		pstmt->setInt(1, id);
+		pstmt->executeQuery();
+
+		pstmt = con->prepareStatement("DELETE FROM vehicles.truck WHERE OwnerId = ?");
+		pstmt->setInt(1, id);
+		pstmt->executeQuery();
+
+		pstmt = con->prepareStatement("DELETE FROM vehicles.motorcycle WHERE OwnerId = ?");
+		pstmt->setInt(1, id);
+		pstmt->executeQuery();
+
+
+		con->setSchema("users");
+		pstmt = con->prepareStatement("DELETE FROM users.customers WHERE ID = ?");
+		pstmt->setInt(1, id);
+		pstmt->executeQuery();
+	}
+	catch (const std::exception& e)
+	{
+		cout << e.what() << "\n";
+	}
+}
