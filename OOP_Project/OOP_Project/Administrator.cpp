@@ -3,9 +3,11 @@
 
 Administrator::Administrator() :Persoana(), Cod(0000) {}
 
-Administrator::Administrator(const string& _Nume, const string& _Prenume, const string& _Username, const string& _Parola, int _Cod):Persoana(_Nume,_Prenume,_Username,_Parola),Cod(_Cod){}
+Administrator::Administrator(const string& _Nume, const string& _Prenume, const string& _Username, const string& _Parola, int _Cod)
+	:Persoana(_Nume,_Prenume,_Username,_Parola),Cod(_Cod){}
 
-Administrator::Administrator(const Administrator& other) :Persoana(other.Nume, other.Prenume, other.Username, other.Parola), Cod(other.Cod) {}
+Administrator::Administrator(const Administrator& other) 
+	:Persoana(other.Nume, other.Prenume, other.Username, other.Parola), Cod(other.Cod) {}
 
 
 Administrator& Administrator::operator=(const Administrator& admin)

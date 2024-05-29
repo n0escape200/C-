@@ -53,4 +53,3 @@ bool Persoana::operator!=(const Persoana& other)
 	}
 	return false;
 }
-

@@ -1,5 +1,27 @@
-﻿  Server.cpp
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Vehicul.h(41,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+﻿  AdministrareUtilizatori.cpp
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Vehicul.h(40,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'AdministrareUtilizatori.cpp')
+  
+  Administrator.cpp
+  Camion.cpp
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Vehicul.h(40,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Camion.cpp')
+  
+  Client.cpp
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Vehicul.h(40,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Client.cpp')
+  
+  Masina.cpp
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Vehicul.h(40,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Masina.cpp')
+  
+  Motocicleta.cpp
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Vehicul.h(40,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Motocicleta.cpp')
+  
+  Persoana.cpp
+  Server.cpp
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Vehicul.h(40,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'Server.cpp')
   
 C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(185,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
@@ -8,64 +30,75 @@ C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(185,4
 C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(218,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(218,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(218,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(249,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(249,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(249,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(293,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(293,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(293,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(335,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(335,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(335,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(375,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(375,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(375,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(418,13): warning C4129: 'M': unrecognized character escape sequence
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(419,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(419,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(419,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(451,13): warning C4129: 'M': unrecognized character escape sequence
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(452,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(452,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(452,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(486,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(486,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(486,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(529,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(529,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(529,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(571,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(571,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(571,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(611,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(611,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(611,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(640,32): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(641,34): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(642,50): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(674,32): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(675,34): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(676,50): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(707,37): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(708,39): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(709,55): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1038,14): warning C4129: 'M': unrecognized character escape sequence
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1039,57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1039,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1039,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1069,57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1069,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1069,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1098,14): warning C4129: 'M': unrecognized character escape sequence
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1099,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1099,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1099,52): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(251,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(251,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(251,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(295,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(295,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(295,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(337,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(337,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(337,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(377,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(377,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(377,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(420,13): warning C4129: 'M': unrecognized character escape sequence
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(421,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(421,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(421,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(453,13): warning C4129: 'M': unrecognized character escape sequence
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(454,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(454,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(454,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(488,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(488,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(488,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(531,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(531,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(531,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(573,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(573,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(573,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(613,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(613,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(613,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(642,32): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(643,34): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(644,50): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(676,32): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(677,34): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(678,50): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(709,37): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(710,39): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(711,55): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1040,14): warning C4129: 'M': unrecognized character escape sequence
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1041,57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1041,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1041,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1071,57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1071,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1071,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1100,14): warning C4129: 'M': unrecognized character escape sequence
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1101,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1101,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1101,52): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Vehicul.cpp
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Vehicul.h(40,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Vehicul.cpp')
+  
+  main.cpp
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Vehicul.h(40,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
      Creating library C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\x64\Release\OOP_Project.lib and object C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\x64\Release\OOP_Project.exp
   Generating code
-C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1118): warning C4715: 'Server::GetInfoAboutUserByName': not all control paths return a value
-  1 of 338 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(953): warning C4715: 'Server::PurchaseMotorcycleById': not all control paths return a value
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(847): warning C4715: 'Server::PurchaseCarById': not all control paths return a value
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(900): warning C4715: 'Server::PurchaseTruckById': not all control paths return a value
+C:\Users\n0_es\Desktop\Repositories\Cpp\OOP_Project\OOP_Project\Server.cpp(1120): warning C4715: 'Server::GetInfoAboutUserByName': not all control paths return a value
+  82 of 294 functions (27.9%) were compiled, the rest were copied from previous compilation.
+    4 functions were new in current compilation
+    28 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
 mysqlcppconn-static.lib(mysql_driver.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_driver.obj)' or at ''; linking object as if no debug info
 mysqlcppconn-static.lib(mysql_connection.obj) : warning LNK4099: PDB '' was not found with 'mysqlcppconn-static.lib(mysql_connection.obj)' or at ''; linking object as if no debug info

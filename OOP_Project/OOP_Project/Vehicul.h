@@ -16,7 +16,6 @@ protected:
     int Ownerid;
 
 public:
-    virtual ~Vehicul() {}
     Vehicul(const string& _Brand, const string& _Model, int _An, float _KM, float _Pret, float _CapacitateCilindrica, const string& _Combustibil,int _ownerId)
         : Brand(_Brand), Model(_Model), An(_An), KM(_KM), Pret(_Pret), CapacitateCilindrica(_CapacitateCilindrica), Combustibil(_Combustibil), Ownerid(_ownerId){}
 

@@ -6,9 +6,7 @@ Client::Client(const string& _Nume, const string& _Prenume, const string& _Usern
 Client::Client(const Client& other)
     : Persoana(other.Nume,other.Prenume, other.Username, other.Parola), Buget(other.Buget) {}
 
-Client::Client():Persoana(),Buget(0)
-{
-}
+Client::Client() :Persoana(), Buget(0) {}
 
 
 Client& Client::operator=(const Client& other)
@@ -17,8 +15,6 @@ Client& Client::operator=(const Client& other)
     {
         Persoana::operator=(other);
         Buget = other.Buget;
-        VehiculeAchizitionate = other.VehiculeAchizitionate;
-        VehiculeDeVanzare = other.VehiculeDeVanzare;
     }
     return *this;
 }

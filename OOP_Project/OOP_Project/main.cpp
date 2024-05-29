@@ -318,14 +318,14 @@ int main() {
 		} while (op != 0);
 	}
 	if (auth == 2) {
-
+		int adminOp;
+		cout << "\nID:" << server.GetAdminId(admin.GetUsername(), admin.GetParola()) << "\nNume:" << admin.GetNume() << "\nPrenume:" << admin.GetPrenume() << "\nCod:" << admin.GetCod() << "\n";
 		do
 		{
 			AdminMenu();
-			int op;
 			cout << ">>>";
-			cin >> op;
-			switch (op)
+			cin >> adminOp;
+			switch (adminOp)
 			{
 			case 1: {
 				server.ShowAllClients();
@@ -414,14 +414,14 @@ int main() {
 				system("CLS");
 			}
 				  break;	
-			case 3: {
-
+			case 0: {
+				continue;
 			}
 				  break;
 			default:
 				break;
 			}
-		} while (op != 0);
+		} while (adminOp != 0);
 
 		cout << "Press enter...\n";
 		char c;

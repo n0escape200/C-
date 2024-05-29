@@ -237,6 +237,7 @@ void Server::ShowOwnedVehicles(Client client)
 		if (data) {
 			cout << "----------Motociclete----------\n";
 			while (data) {
+				int vehId = result->getInt("VehicleID");
 				string brand = result->getString("Brand");
 				string model = result->getString("Model");
 				int an = result->getInt("An");
@@ -246,6 +247,7 @@ void Server::ShowOwnedVehicles(Client client)
 				string combustibil = result->getString("Combustibil");
 				string motor = result->getString("TipMotor");
 				string corp = result->getString("Corp");
+				cout << "\nMotocicleta ID:" << vehId << "\n";
 				cout << Motocicleta(Vehicul(brand, model, an, km, pret, capCil, combustibil, id), motor, corp) << "\n";
 				data = result->next();
 			}
@@ -540,7 +542,7 @@ void Server::ShowAllCars(Client client)
 
 
 /// <summary>
-/// Functie care cauta si afiseaza pe ecran toate vehiculele de tip 'Camion', care NU sunt detinute de 'client'
+/// Functie care cauta si afiseaza pe ecran toate vehiculele de tip 'Camion', care NU sunt detinute de 'client'.
 /// </summary>
 /// <param name="client"></param>
 void Server::ShowAllTrucks(Client client)
@@ -1022,7 +1024,7 @@ int Server::GetInfoAboutUserByName(string fname, string lname)
 			if (cardata) {
 				aux = 1;
 				cout << "----------Masini----------\n";
-				while (result->next()) {
+				while (cardata) {
 					int vehId = result->getInt("VehicleID");
 					int id = result->getInt("OwnerId");
 					string brand = result->getString("Brand");

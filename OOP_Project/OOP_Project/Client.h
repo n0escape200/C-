@@ -8,9 +8,6 @@ class Client : public Persoana
 {
 private:
     int Buget;
-    vector<Vehicul> VehiculeDeVanzare;
-    vector<Vehicul> VehiculeAchizitionate;
-
 public:
     //Constructori
     Client(const string& _Nume, const string& _Prenume, const string& _Username, const string& _Parola, int _Buget);

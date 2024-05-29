@@ -3,10 +3,8 @@
 Server server;
 
 
-AdministrareUtilizatori::AdministrareUtilizatori()
-{
+AdministrareUtilizatori::AdministrareUtilizatori() {}
 
-}
 //
 //vector<string> AdministrareUtilizatori::Split(string line)
 //{
